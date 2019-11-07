@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quotes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <a href="/">Home</a>
+    <fieldset>
+        <h2>Here are the awesome quotes!</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for (const quote of quotes){
+                    %>
+                    <tr><td>__<td></tr>
+                    <tr>
+                        <td>User: <%= quote.name %></td>
+                        <td>Quote: <%= quote.quote %> @ <%= quote.createdAt %></td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </fieldset>
+</body>
+</html>

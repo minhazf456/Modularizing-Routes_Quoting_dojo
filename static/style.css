@@ -1,0 +1,42 @@
+fieldset{
+    border-radius: 40px;
+    border-color: blue;
+    border-width: 3px;
+    height: 200px;
+    width: 400px;
+}
+form {
+    width: 330px;
+}
+label, input {
+    padding: 4px;
+    margin: 5px, 5px, 2px, 15px;
+    display: inline-block;
+    margin-top: 5px;
+}
+#quote_body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+#name_date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-left: 20px;
+    font-size: 11px;
+}
+#add_btn {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    margin-left: 84px;
+    margin-top: 5px;
+}
+#skip_btn {
+    background-color: turquoise;
+    color: white;
+    border-radius: 4px;
+    margin-left: 84px;
+    margin-top: 5px;
+}
